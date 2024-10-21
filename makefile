@@ -1,5 +1,5 @@
-default:
-	# write command to test your files (you do not need it for your submissions)
+q3 : q3.cpp
+	g++ -Wall q3.cpp -o q3.out
 
 clean:
 	rm *.out
